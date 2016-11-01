@@ -10,7 +10,7 @@ Well at the current moment its a simple double click or open and its ready to us
 
 # Development status:
 
-The project is still in development and possibly will be until I run out of features to implement, feel I done enough on this project for a functional simple use or I have moved onto a new project idea (as I quite a few ideas flowing in my head :D).
+The project is still in development and possibly will be until I run out of features to implement, feel I done enough on this project for a functional simple use or I have moved onto a new project idea (as I quite a few ideas flowing in my head).
 
 # Planned features:
 
