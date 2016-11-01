@@ -12,3 +12,13 @@ C:\Users\Ashleigh\Downloads\Xynous-oxidemoddownload-1859bda29f66\RustOxideDownlo
 C:\Users\Ashleigh\Downloads\Xynous-oxidemoddownload-1859bda29f66\RustOxideDownloadFunction\obj\Debug\RustOxideDownloadFunction.exe
 C:\Users\Ashleigh\Downloads\Xynous-oxidemoddownload-1859bda29f66\RustOxideDownloadFunction\obj\Debug\RustOxideDownloadFunction.pdb
 C:\Users\Ashleigh\Downloads\Xynous-oxidemoddownload-1859bda29f66\RustOxideDownloadFunction\bin\Debug\OxideInstaller.exe.config
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\bin\Debug\OxideInstaller.exe.config
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\bin\Debug\OxideInstaller.exe
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\bin\Debug\OxideInstaller.pdb
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\bin\Debug\Ionic.Zip.dll
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\obj\Debug\RustOxideDownloadFunction.csprojResolveAssemblyReference.cache
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\obj\Debug\RustOxideDownloadFunction.Form1.resources
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\obj\Debug\RustOxideDownloadFunction.Properties.Resources.resources
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\obj\Debug\RustOxideDownloadFunction.csproj.GenerateResource.Cache
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\obj\Debug\OxideInstaller.exe
+C:\Users\Ashleigh\Documents\GitHub\Oxide-Installer\RustOxideDownloadFunction\obj\Debug\OxideInstaller.pdb

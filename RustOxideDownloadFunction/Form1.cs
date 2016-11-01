@@ -14,9 +14,9 @@ namespace RustOxideDownloadFunction
 {
     public partial class Form1 : Form
     {
-        string OxideMod_Location;
-        string OxideMod_Decompression;
-        const string OxideDownload = "https://github.com/OxideMod/Snapshots/raw/master/Oxide-Rust.zip?1474682786";
+        private string OxideMod_Location;
+        private string OxideMod_Decompression;
+        private const string OxideDownload = "https://github.com/OxideMod/Snapshots/raw/master/Oxide-Rust.zip?1474682786";
 
         public Form1()
         {
@@ -30,10 +30,10 @@ namespace RustOxideDownloadFunction
 
         private void progressBar1_Click(object sender, EventArgs e)
         {
-
+            // Progress bar for downloading of file.
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Download_btn_Click(object sender, EventArgs e)
         {
             WebClient oxideModDL = new WebClient();
 
@@ -60,7 +60,7 @@ namespace RustOxideDownloadFunction
         }
 
         // Allows the user to select the directory location for download.
-        private void button1_Click(object sender, EventArgs e)
+        private void Download_Location_btn_Click(object sender, EventArgs e)
         {
             SaveFileDialog SelectFolderObject1 = new SaveFileDialog();
 
@@ -80,19 +80,14 @@ namespace RustOxideDownloadFunction
 
         private void DecompressOxideMod()
         {
-            // Working
-             // ZipFile.ExtractToDirectory(OxideMod_Location, OxideMod_Decompression, ExtractExistingFileAction.OverwriteSilently);
-
-            // Working
             ZipFile zipdecompression = ZipFile.Read(OxideMod_Location);
 
-                foreach (ZipEntry zipentry in zipdecompression)
-                {
-                
+            foreach (ZipEntry zipentry in zipdecompression)
+            {
                 zipentry.Extract(OxideMod_Decompression, ExtractExistingFileAction.OverwriteSilently);
+            }
 
-                } 
-
+            MessageBox.Show("Download and extraction complete", "Notification");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -106,7 +101,7 @@ namespace RustOxideDownloadFunction
         }
 
         // Allows the user to select extraction location.
-        private void button3_Click(object sender, EventArgs e)
+        private void Extract_Location_btn_click(object sender, EventArgs e)
         {
             FolderBrowserDialog DecompressSelectObject1 = new FolderBrowserDialog();
 
