@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using Ionic.Zip;
+using System.IO;
 
 namespace RustOxideDownloadFunction
 {
@@ -17,6 +18,7 @@ namespace RustOxideDownloadFunction
         private string OxideMod_Location;
         private string OxideMod_Decompression;
         private const string OxideDownload = "https://github.com/OxideMod/Snapshots/raw/master/Oxide-Rust.zip?1474682786";
+        private string fileDelete = "";
 
         public Form1()
         {
@@ -117,6 +119,40 @@ namespace RustOxideDownloadFunction
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_Delete_Click(object sender, EventArgs e)
+        {
+            DialogResult deleteDialog = MessageBox.Show("This will permanently delete your rust save file, are you sure", "  WARNING", MessageBoxButtons.YesNo);
+            if(deleteDialog == DialogResult.Yes)
+            {
+                File.Delete(fileDelete);
+            }
+            else
+            {
+                // Do nothing.
+            }
+            
+        }
+
+        private void button_browse_delete_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog oFDObject = new OpenFileDialog();
+
+            oFDObject.ShowDialog();
+
+            var test = oFDObject.FileName;
+
+            textBox3.Text = test;
+
+            fileDelete = test;
+
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+             
         }
     }
 }
