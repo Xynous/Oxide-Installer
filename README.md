@@ -2,7 +2,7 @@
 
 # What is it?
 
-This project is a simple windows server side application what allows the administator who runs a rust server to quickly download, extract and install the latest oxide mod to the selected server path (Which would be the rust server directory usually) automatically.
+This project is a simple windows server side application what allows the administator who runs a rust server to manage their server more easily. Overall its a small utility tool what offers features such as, mod downloading of oxide, automatic extraction of mod to specific location and a simple file delete which could be used to delte your rust (sav) files on server wipes.
 
 # How to install?
 
@@ -14,15 +14,17 @@ The project is still in development and possibly will be until I run out of feat
 
 # Planned features:
 
-1. Server wipe feature for admins to wipe their server with a simple click of a button.
+1. Server wipe feature for admins to wipe their server with a simple click of a button. (Done, needs to be reviewed)
 
 2. Application installer for the server side application. (This is if the application has got quite a few features and requires a installer).
 
-3. Save feature, so user setting will save on application close.
+3. Save feature, so user setting will save on application close. (Done)
 
-4. Automation feature, what allows the admin to set a schedule for server wipes to be done or oxide mod download which would be done automatically.
+4. Automation feature, what allows the admin to set a schedule for server wipes to be done or oxide mod download which would be done automatically. (WIP)
+
+5. Optional downloads (This is basically allows the user to download custom mod files like oxide mod or offcial rust updates from steamcmd for example. (Still considering)
 
 
 # Author:
 
-Xynous - (Developer)
+Ashleigh Day - (aka Xynous) - (Programmer)
