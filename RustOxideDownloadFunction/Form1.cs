@@ -17,8 +17,8 @@ namespace RustOxideDownloadFunction
     {
         private string OxideMod_Location;
         private string OxideMod_Decompression;
-        private const string OxideDownload = "https://github.com/OxideMod/Snapshots/raw/master/Oxide-Rust.zip?1474682786";
-        private string fileDelete = "";
+        private const string OxideDownload = "https://raw.githubusercontent.com/OxideMod/Snapshots/master/Oxide-Rust.zip";
+        private string fileDelete;
 
         public Form1()
         {
@@ -78,6 +78,11 @@ namespace RustOxideDownloadFunction
 
             OxideMod_Location = storeFolderPath;
 
+            // Write variable string to settings variable, this is to store it to be read from form load so user settings are saved on close from previous use/save.
+            Properties.Settings.Default.download_Location = storeFolderPath;
+
+            Properties.Settings.Default.Save();
+
         }
 
         private void DecompressOxideMod()
@@ -94,8 +99,32 @@ namespace RustOxideDownloadFunction
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Loads the string variable whats been written to when the user
+            string load1 = Properties.Settings.Default.download_Location;
+
+            string load2 = Properties.Settings.Default.extract_Location;
+
+            string load3 = Properties.Settings.Default.file_Wipe_Location;
+
+            for (int startnum = 0; startnum <=1; startnum++)
+            {
+                OxideMod_Location = load1;
+
+                OxideMod_Decompression = load2;
+
+                fileDelete = load3;
+
+                textBox1.Text = load1;
+
+                textBox2.Text = load2;
+
+                textBox3.Text = load3;
+            }
+           
+
 
         }
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -114,6 +143,12 @@ namespace RustOxideDownloadFunction
             textBox2.Text = storeFolderPath;
 
             OxideMod_Decompression = storeFolderPath;
+
+            Properties.Settings.Default.extract_Location = storeFolderPath;
+
+            Properties.Settings.Default.Save();
+
+
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -130,7 +165,7 @@ namespace RustOxideDownloadFunction
             }
             else
             {
-                // Do nothing.
+                // Do nothing. Does not delete file.
             }
             
         }
@@ -147,12 +182,21 @@ namespace RustOxideDownloadFunction
 
             fileDelete = test;
 
+            Properties.Settings.Default.file_Wipe_Location = test;
+
+            Properties.Settings.Default.Save();
+
 
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
              
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

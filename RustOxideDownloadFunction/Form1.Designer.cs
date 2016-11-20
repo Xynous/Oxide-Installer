@@ -40,10 +40,10 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button_browse_delete = new System.Windows.Forms.Button();
-            this.button_Delete = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.button_Delete = new System.Windows.Forms.Button();
+            this.button_browse_delete = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -164,23 +164,14 @@
             this.tabPage2.Text = "Server Wipe Tools";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // label3
             // 
-            this.textBox3.Location = new System.Drawing.Point(9, 37);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(354, 20);
-            this.textBox3.TabIndex = 1;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // button_browse_delete
-            // 
-            this.button_browse_delete.Location = new System.Drawing.Point(369, 34);
-            this.button_browse_delete.Name = "button_browse_delete";
-            this.button_browse_delete.Size = new System.Drawing.Size(75, 23);
-            this.button_browse_delete.TabIndex = 2;
-            this.button_browse_delete.Text = "Browse";
-            this.button_browse_delete.UseVisualStyleBackColor = true;
-            this.button_browse_delete.Click += new System.EventHandler(this.button_browse_delete_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "File Location";
             // 
             // button_Delete
             // 
@@ -192,14 +183,23 @@
             this.button_Delete.UseVisualStyleBackColor = true;
             this.button_Delete.Click += new System.EventHandler(this.button_Delete_Click);
             // 
-            // label3
+            // button_browse_delete
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "File Location";
+            this.button_browse_delete.Location = new System.Drawing.Point(369, 34);
+            this.button_browse_delete.Name = "button_browse_delete";
+            this.button_browse_delete.Size = new System.Drawing.Size(75, 23);
+            this.button_browse_delete.TabIndex = 2;
+            this.button_browse_delete.Text = "Browse";
+            this.button_browse_delete.UseVisualStyleBackColor = true;
+            this.button_browse_delete.Click += new System.EventHandler(this.button_browse_delete_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(9, 37);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(354, 20);
+            this.textBox3.TabIndex = 1;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Form1
             // 
@@ -212,6 +212,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "OxideInstaller";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
