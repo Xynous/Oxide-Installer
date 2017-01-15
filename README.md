@@ -26,9 +26,11 @@ The project is still in development and possibly will be until I run out of feat
 
 6. Multiple profiles when managaing multiple rust servers by allowing the user to create a new section with a press of a button. This will create a new section such as the the paramater boxes, download buttons etc which users can set a second, third or fourth configuration if running multiple servers. Also need to make this create new variables dynamiically and adjust form and form object positions on multiple profile creation.
 
-7. Service creation within windows. This will maintain the uptime of the rust server utility and if crashes, it will recover the application.
+7. Start, stop, restart and kill game server instance on server option.
 
-8. GUI (Graphical user interface) needs to be redesigned once functionality is developed.
+8. Service creation within windows. This will maintain the uptime of the rust server utility and if crashes, it will recover the application.
+
+9. GUI (Graphical user interface) needs to be redesigned once functionality is developed.
 
 # Author:
 
