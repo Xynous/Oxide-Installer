@@ -2,7 +2,7 @@
 
 # What is it?
 
-This project is a simple windows server side application what allows the administator who runs a rust server to manage their server more easily. Overall its a small utility tool what offers features such as, mod downloading of oxide, automatic extraction of mod to specific location and a simple file delete which could be used to delte your rust (sav) files on server wipes.
+This project is a simple windows server side application what allows the administator who runs a rust server to manage their server more easily. Overall its a small utility tool what offers features such as, mod downloading of oxide, automatic extraction of mod to specific location and a simple file delete which could be used to delte your rust (sav) files on server wipes and possibly much more.
 
 # How to install?
 
@@ -10,7 +10,7 @@ Well at the current moment its a simple double click or open and its ready to us
 
 # Development status:
 
-The project is still in development and possibly will be until I run out of features to implement, feel I done enough on this project for a functional simple use or I have moved onto a new project idea (as I quite a few ideas flowing in my head).
+The project is still in development in terms of the features mentioned below. Do note that this project is still in development and testing so if you decide to use it while in early development (Now) on your rust servers and something goes wrong. I am not responsible as you have been warned on the status of this project.
 
 # Planned features:
 
