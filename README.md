@@ -34,4 +34,4 @@ The project is still in development in terms of the features mentioned below. Do
 
 # Author:
 
-Ashleigh Day - (aka Xynous) - (Programmer)
+Ashleigh Day - (Xynous)
