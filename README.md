@@ -1,5 +1,11 @@
 # Oxide-Installer
 
+# Author/ Credits:
+
+Ashleigh Day (Xynous)
+
+Any usage of my project ideas or source code, please give the correct credits as taking someones project idea / source code and claiming its all yours is wrong.
+
 # What is it?
 
 This project is a simple windows server side application what allows the administator who runs a rust server to manage their server more easily. Overall its a small utility tool what offers features such as, mod downloading of oxide, automatic extraction of mod to specific location and a simple file delete which could be used to delte your rust (sav) files on server wipes and possibly much more.
@@ -32,6 +38,3 @@ The project is still in development in terms of the features mentioned below. Do
 
 9. GUI (Graphical user interface) needs to be redesigned once functionality is developed.
 
-# Author:
-
-Ashleigh Day - (Xynous)
