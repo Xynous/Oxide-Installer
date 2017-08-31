@@ -2,27 +2,43 @@
 
 # What is it?
 
-This project is a simple windows server side application what allows the administator who runs a rust server to manage their server more easily. Overall its a small utility tool what offers features such as, mod downloading of oxide, automatic extraction of mod to specific location and a simple file delete which could be used to delte your rust (sav) files on server wipes and possibly much more.
+This project is a simple windows server side application what allows the administator who runs a rust server to manage their server more easily. Overall its a small utility tool what allows the user to automatically download, extract and install the Rust Oxide Mod to a defined location (Usually the rust server files directory) set by the user. The goal of the project was to attempt to automate the Oxide Mod installation for rust server administrators as Oxide Mod updates get released quite often requiring the Oxide Mod to be manually downloaded, extracted and installed in the root server directory (Rust server directory) each time a new update is released.
+
+# Features:
+
+1. Oxide mod downloading and auto extracting to the users set directory. (Done)
+
+2. Save feature, so user settings will save once the user has defined their settings (Saves users set paths for oxide downloading and auto extracting). (Done)
 
 # How to install?
 
-Well at the current moment its a simple double click or open and its ready to use on the server.
+To compile and use this software;
+
+1. Download the project and open the project in Visual Studio
+
+2. Compile the project in release mode (which removes unnecessary debug files)
+
+3. Navigate to the "Release" folder which is found within the "bin" folder and find the compiled binary.
+
+To download a pre compiled binary;
+
+1. 
 
 # Development status:
 
-The project is still in development in terms of the features mentioned below. Do note that this project is still in development and testing so if you decide to use it while in early development (Now) on your rust servers and something goes wrong. I am not responsible as you have been warned on the status of this project.
+The Project/ Development status is complete.
+
+# Notes
+
+1. When you compile the project in Visual Studio, their is a additional libary/file which is required for the Oxide Installer to auto extract the Oxide Mod properly. Also make sure when you run the program, the libary file is in the same directory as the program/binary.
 
 # Author/ Credits:
 
 Ashleigh Day - (Xynous)
 
-Any usage of my project ideas or source code, please give the correct credits and references as taking someones project idea / source code and claiming its all yours is wrong.
+Any usage of my project ideas or source code, please give the correct credits and references.
 
-# Planned features:
 
-1. Server wipe feature for admins to wipe their rust save files. Looking into creating mini ui file explorer for users to easly set sav file locations and interact within the utility to perform tasks like deleting sav files, moving them etc. (Still in research and testing).
-
-2. Save feature, so user setting will save on application close. (Done)
 
 
 
