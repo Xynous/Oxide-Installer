@@ -26,7 +26,7 @@ To download a pre compiled binary;
 
 # Development status:
 
-The Project/ Development status is complete.
+The Projects Development status is complete.
 
 # Notes
 
