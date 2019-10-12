@@ -20,13 +20,9 @@ To compile and use this software;
 
 3. Navigate to the "Release" folder which is found within the "bin" folder and find the compiled binary.
 
-To download a pre compiled binary;
-
-1. 
-
 # Development status:
 
-The Projects Development status is complete.
+The projects development status is complete.
 
 # Notes
 
@@ -34,12 +30,4 @@ The Projects Development status is complete.
 
 # Author/ Credits:
 
-Ashleigh Day - (Xynous)
-
-Any usage of my project ideas or source code, please give the correct credits and references.
-
-
-
-
-
-
+Mr. Ashleigh Day
